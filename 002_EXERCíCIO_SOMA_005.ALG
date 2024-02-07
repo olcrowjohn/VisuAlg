@@ -2,7 +2,7 @@ algoritmo "semnome"
 var
 
    n1, n2 : inteiro //variáveis contendo números
-   soma, subtracao, multiplicacao : inteiro //variáveis de operações matemáticas
+   soma, sub, multi : inteiro //variáveis de operações matemáticas
 
 inicio
 
@@ -15,40 +15,20 @@ inicio
       leia (n2)
       escreval
 
-     //processamento e saída
+     //processamento e atribuição das operações entre
+     //variáveis as suas respectivas variáveis operacionais
+     soma<-n1+n2
+     sub<-n1-n2
+     multi<-n1*n2
+     
+     //dados de saída
      //utilizando o comando "ESCREVA" e "ESCREVAL"
-     //armamos as equações, concatenando com " , "
-     //e incluindo simbolos das operações executadas
-
-     escreval ("Operações entre n1(6) e n2(2):")//enunciado 1
-
-     //adição entre n1 e n2
-     escreva (n1, " + ", n2, " = ", n1+n2)
+     escreva("Resultado da soma: ", soma)
      escreval
-     //subtração entre n1 e n2
-     escreva (n1, " - ", n2, " = ", n1-n2)
+     escreva("Resultado da subtração: ", sub)
      escreval
-     //multiplicação entre n1 e n2
-     escreva (n1, " x ", n2, " = ", n1*n2)
+     escreva ("Resultado da multiplicação: ", multi)
      escreval
-     //adição entre n3 e n4
-
-     escreval
-     escreval ("Operações entre n3(-78) e n4(10):")//enunciado 2
-     
-     escreva (n3, " + ", n4, " = ", n3+n4)
-     escreval
-     //subtração entre n3 e n4
-     escreva (n3, " - ", n4, " = ", n3-n4)
-     escreval
-     //multiplicação entre n3 e n4
-     escreva (n3, " x ", n4, " = ", n3*n4)
-     escreval
-     
-     //tanto os números quanto operações
-     //executadas são distintos
-     //então optei por não criar uma variável
-     //para armazenar e demonstrar o produto de cada operação
      
 
 fimalgoritmo
