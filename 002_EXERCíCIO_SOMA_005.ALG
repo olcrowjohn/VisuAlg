@@ -1,16 +1,19 @@
 algoritmo "semnome"
 var
 
-   n1, n2, n3, n4 : inteiro //variáveis contendo números
+   n1, n2 : inteiro //variáveis contendo números
+   soma, subtracao, multiplicacao : inteiro //variáveis de operações matemáticas
 
 inicio
 
       //entrada de dados
-      //atribuindo valores à n1 e n2
-     n1<-6
-     n2<-2
-     n3<-(-78)
-     n4<-10
+      //requisitando que o usuário atribua valores à n1 e n2
+      escreva ("Digite o primeiro número para as operações: ")
+      leia (n1)
+      escreval
+      escreva ("Digite o segundo número para as operações: ")
+      leia (n2)
+      escreval
 
      //processamento e saída
      //utilizando o comando "ESCREVA" e "ESCREVAL"
