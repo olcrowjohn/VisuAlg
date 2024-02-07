@@ -1,11 +1,11 @@
-algoritmo "002_exercício_soma"
+algoritmo "EX_3_v1"
 var
-   //declaração de variáveis
+   //declaraÃ§Ã£o de variÃ¡veis
    n1, n2, n3, n4 : inteiro
 
 inicio
 
-      //atribuindo valores a cada uma das variáveis
+      //atribuindo valores a cada uma das variÃ¡veis
       //ou seja
       //entrada de dados
       n1<-6
@@ -14,10 +14,10 @@ inicio
       n4<-10
       
       
-      //Imprimindo os comandos de saída
+      //Imprimindo os comandos de saÃ­da
       //no caso
-      //duas equações que somam diferentes valores
-      //atribuídos a respectivas variáveis
+      //duas equaÃ§Ãµes que somam diferentes valores
+      //atribuÃ­dos a respectivas variÃ¡veis
       escreva (n1, " + ", n2, " = ", n1+n2)
       escreval
       escreva (n3, " + ", n4, " = ", n3+n4)
