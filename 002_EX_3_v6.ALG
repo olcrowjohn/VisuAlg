@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "EX_3_v6"
 var
 
    n1, n2 : inteiro //variáveis para atribuição numérica
