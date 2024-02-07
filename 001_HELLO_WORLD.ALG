@@ -11,6 +11,7 @@ inicio
       //comando de saída de dado:
       //escreva
       
+      escreval("Olá, Mundo!!")
       escreval ("HELLO WORLD!!")
       escreva ("O mais novo estudante de lógica de programação!")
       escreval
