@@ -33,15 +33,15 @@ inicio
       //a qual tomará forma de equação
       
       total<-n1+n2+n3 //atribuição de soma das variáveis N à variável TOTAL
-      escreval (n1, " + ", n2, " + ", n3, " = ", total:9:3)
+      escreval (n1, " + ", n2, " + ", n3, " = ", total:9:4)
       escreval
       total<-n1-n2-n3
-      escreval(n1, " - ", n2, " - ", n3, " = ", total:9:3)
+      escreval(n1, " - ", n2, " - ", n3, " = ", total:9:4)
       escreval
       total<-n1*n2*n3
-      escreval(n1, " x ", n2, " x ", n3, " = ", total:9:3)
+      escreval(n1, " x ", n2, " x ", n3, " = ", total:9:4)
       escreval
       total<-n1/n2/n3
-      escreval (n1, " / ", n2, " / ", n3, " = ", total:9:3)
+      escreval (n1, " / ", n2, " / ", n3, " = ", total:9:4)
 
 fimalgoritmo
