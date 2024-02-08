@@ -11,9 +11,9 @@ algoritmo "006_L01_EX_10_v1"
 
 var
 
-   bS : real //base maior
-   bI : real //base menor
-   h : real //altura
+   bS : real //base superior
+   bI : real //base inferior
+   h : real //altura (distância entre as bases)
    a : real//área
 
 inicio
