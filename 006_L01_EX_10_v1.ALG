@@ -19,6 +19,8 @@ var
 inicio
 
       //entrada de dados
+      //requisitar que o usuário informe as medidas
+      //necessárias para calcular a área do trapézio
       escreval ("Precisamos das medidas em metros do trapézio")
       escreval ("para calcular sua área.")
       escreval
@@ -33,9 +35,12 @@ inicio
       escreval
 
       //processamento
+      //fórmula de calculo da área do trapézio
+      //transformada em fórmula algorítmica
       a<-((bS+bI)/2)*h
       
       //saída de dados
+      //resuldado da equação
       escreval ("A área do trapézio é de: ", a, " metros²")
       
 
