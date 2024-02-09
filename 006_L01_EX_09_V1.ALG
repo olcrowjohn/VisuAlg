@@ -22,6 +22,7 @@ inicio
       vol<-(4/3)*pi*raio^3
       
       //saída de dados
+      //diagramado
       escreva ("Volume da esfera é de : ", vol:10:5)
 
 fimalgoritmo
