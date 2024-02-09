@@ -21,8 +21,8 @@ inicio
       
       //processamento
       //transformar a fórmula
-      //f<-(c*9/5)+32
-      f<-(9*c+160)/5
+      //f<-(c*9/5)+32 ////fórmula de conversão #001
+      f<-(9*c+160)/5 //fórmula de conversão #002
       
       //saída de dados
       //valor convertido
