@@ -43,5 +43,7 @@ inicio
       //resuldado da equação
       escreval ("A área do trapézio é de: ", a, " metros²")
       
+      //alteração
+      
 
 fimalgoritmo
