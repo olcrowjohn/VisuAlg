@@ -3,7 +3,7 @@ algoritmo "006_L01_EX_11_v1"
           //Crie um algoritmo que leia a temperatura em
           //graus Celsius e converta para Fahreinheit
           //F = (C * 9/5)+32
-          //C = (9*C+160)/5
+          //F = (9*C+160)/5
 
 var
 
@@ -21,11 +21,12 @@ inicio
       
       //processamento
       //transformar a fórmula
-      f<-(c*9/5)+32
+      //f<-(c*9/5)+32
+      f<-(9*c+160)/5
       
       //saída de dados
       //valor convertido
-      escreval ("O valor convertido para Fareinheit é de ", f, "F")
-      
+      escreval ("O valor convertido para Fareinheit é de ", f:8:4, "F")
+
 
 fimalgoritmo
