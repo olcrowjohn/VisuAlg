@@ -6,7 +6,7 @@ algoritmo "007_L01_EX_14_v1"
 var
 
    n1, n2, n3 : inteiro
-   p1, p2, p3 : inteiro
+   p1 : inteiro
    soma : inteiro
 
 inicio
@@ -25,11 +25,13 @@ inicio
       //processamento de dados1
       p1<-2
       soma<-n1+n2+n3
+      //soma<-(n1+n2+n3)^2 incorreto com variáveis do tipo INTEIRO
       //soma<-soma^p1 incorreto com variáveis do tipo INTEIRO
       
       
+      
       //saída de dados
-      escreval(exp(soma,2))
+      escreval("(",n1, " +", n2, " +", n3, ")² =", exp(soma,p1))
       
 
 fimalgoritmo
