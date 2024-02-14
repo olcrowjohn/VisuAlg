@@ -28,8 +28,6 @@ inicio
       //soma<-(n1+n2+n3)^2 incorreto com variáveis do tipo INTEIRO
       //soma<-soma^p1 incorreto com variáveis do tipo INTEIRO
       
-      
-      
       //saída de dados
       escreval("(",n1, " +", n2, " +", n3, ")² =", exp(soma,p1))
       
