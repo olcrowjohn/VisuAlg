@@ -32,6 +32,11 @@ inicio
       
       //
       //processamento
+      //atribuir valor a "nFinal", que é a "soma das notas/quantidade de notas"
+      //definir as condições de "se"
+      //a cada uma das três etapas, atribuir valor a variável "situacao"
+      //assim consigo imprimir as notas, média final e situação
+      //do aluno com detalhes na sessão de saída de dados
       nFinal<-(n1+n2+n3+n4)/4
       
       se(nFinal>=7)entao
@@ -47,6 +52,10 @@ inicio
       
       //
       //saída de dados
+      //notas (var n1, n2, n3 e n4) foram informadas pelo usuário
+      //nFinal está na etapa de processamento e impresso nessa sessão final
+      //situação do aluno foi definida através da estrutura condicional e
+      //e está impressa no final do relatório
       escreval("A nota do primeiro bimestre foi: ", n1)
       escreval("A nota do segundo bimestre foi: ", n2)
       escreval("A nota do terceiro bimestre foi: ", n3)
