@@ -76,7 +76,7 @@ inicio
       escreval ("2 + 5 < 5 xou 3 x 3 <> 9", (2 + 5 < 5) xou (3*3 <> 9))
       //FALSO (F e F)
       //ambas as hipoteses são testadas
-      //porém apenas se a combinação de uma V e outra F vai apontar
+      //porém apenas se a combinação de uma V e um F vai apontar
       //resultado final como VERDADEIRO
       //todas as outras hipoteses serão avaliadas como FALSA
 
