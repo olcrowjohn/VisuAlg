@@ -61,8 +61,8 @@ inicio
       //
       //
       //saída de dados
-      escreval("Paciente ", nome, ",", idade, " anos;")
-      escreval("Imc de ", imc)
-      escreval("Classificação: ", classificacao)
+      escreval("Paciente ", nome, ",", idade, " anos.")
+      escreval("Imc de ", imc:5:2, ".")
+      escreval("Classificação: ", classificacao, ".")
       
 fimalgoritmo
