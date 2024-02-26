@@ -1,4 +1,7 @@
 algoritmo "012_escolha_caso_aula2_escolha_animais_v2"
+
+//escolha_caso usando caractere
+
 var
 
    animal, caracteristica : caractere
@@ -24,7 +27,7 @@ inicio
            caso "CENTOPEIA"
                 caracteristica<-" tem 100 patas."
            caso "PÁSSARO"
-                caracteristica<-" tem 2 patas e suas asas."
+                caracteristica<-" tem 2 patas e duas asas."
            caso "COBRA"
                 caracteristica<-" não tem patas."
            outroCaso
