@@ -32,7 +32,7 @@ inicio
       senao
            se(n2>n1)entao
                 dif<-n2-n1
-                escreval("A diferença entre os dois números é de: ", dif, " números.")
+                escreval("A diferença entre os dois números é de ", dif, " números.")
            senao
                 escreval("Os números são iguais.")
            fimse

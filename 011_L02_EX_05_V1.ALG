@@ -45,12 +45,12 @@ inicio
            escreval("A temperatura no ambienta está em ", f, " fahrenheit.")
            escreval("Ideal para conduzir o experimento XYZ.")
       senao
-           se(f<44)entao
+           se(f<45)entao
               escreval ("A temperatura no ambiente está em ", f, " fahrenheit.")
               escreval("Imprópria para conduzir o experimento XYZ.")
               escreval("Se possível, aumente a temperatura em pelo menos ", 45-f, " fahrenheit.")
            senao
-                se(f>91)entao
+                se(f>90)entao
                      escreval("A temperatura no ambiente está em ", f, " fahrenheit.")
                      escreval("Imprópria para conduzir o experimento XYZ.")
                      escreval ("Se possível, diminua a temperatura em pelo menos ", f-90, " fahrenheit.")
