@@ -15,30 +15,35 @@ inicio
       //
       //entrada de dados
       //
+
+      //
       //valores de teste
       //n1<-5
       //n2<-7
       //
-      escreval("Insira os dois números para operação:")
-      leia(n1)
-      leia(n2)
-      //
-      
-      limpatela
       
       //
       //processamento
       //
+      escreval("*****        CALCULADORA         *****")
+      escreval
+      escreval("Insira os dois números para operação: ")
+      leia(n1, n2)
       escreval
       escreval("Escolha a operação matemática desejada")
       escreval("*****         1 - Adição         *****")
       escreval("*****        2 - Subtração       *****")
       escreval("*****     3 - Multiplicação      *****")
       escreval("*****         4 - Divisão        *****")
-      escreval
+      escreval("*****         5 - Potência       *****")
+      escreval("*****    6 - Encerrar programa   *****")
+      escreval("Escolha a operação de [1] a [6]")
       leia(op)
+      escreval
       //
-      se(op<1) ou (op>4)entao
+      //
+
+      se(op<1) ou (op>6)entao
            limpatela
            escreval("Operação matemática não válida.")
            fimAlgoritmo
@@ -54,10 +59,32 @@ inicio
                       resultado<-n1*n2
                       op1<-"x"
                  caso 4
-                      resultado<-n1/n2
-                      op1<-"/"
+                      se(n1=0)entao
+                           limpatela
+                           escreval("Divisor 0 não existe.")
+                           fimalgoritmo
+                      senao
+                           se(n2=0)entao
+                                limpatela
+                                escreval("Dividendo 0 não existe.")
+                                fimalgoritmo
+                           senao
+                                resultado<-n1/n2
+                                op1<-"/"
+                           fimse
+                      fimse
+                 caso 5
+                      //resultado<-n1^b2
+                      resultado<-exp(n1, n2)
+                      op1<-"^"
+                 caso 6
+                      limpatela
+                      escreval ("Programa encerrado")
+                      fimAlgoritmo
                  outrocaso
+                      limpatela
                       escreval("Operação matemática inválida.")
+                      fimAlgoritmo
          fimEscolha
       fimse
       //
