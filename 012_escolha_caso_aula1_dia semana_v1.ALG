@@ -1,4 +1,4 @@
-algoritmo "012_escolha_caso_aula1_dia semanav1"
+algoritmo "012_escolha_caso_aula1_dia semana_v1"
 var
 
    diaSemana : inteiro
