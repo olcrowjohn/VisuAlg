@@ -16,19 +16,25 @@ inicio
       //entrada de dados
       //
       //valores de teste
-      n1<-5
-      n2<-7
+      //n1<-5
+      //n2<-7
       //
+      escreval("Insira os dois números para operação:")
+      leia(n1)
+      leia(n2)
+      //
+      
+      limpatela
       
       //
       //processamento
       //
       escreval
       escreval("Escolha a operação matemática desejada")
-      escreval("1 - Adição")
-      escreval("2 - Subtração")
-      escreval("3 - Multiplicação")
-      escreval("4 - Divisão")
+      escreval("*****         1 - Adição         *****")
+      escreval("*****        2 - Subtração       *****")
+      escreval("*****     3 - Multiplicação      *****")
+      escreval("*****         4 - Divisão        *****")
       escreval
       leia(op)
       //
@@ -59,6 +65,6 @@ inicio
       limpatela
       
       //
-      escreval(n1," ", op1, n2, " = ", resultado)
+      escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
 
 fimalgoritmo
