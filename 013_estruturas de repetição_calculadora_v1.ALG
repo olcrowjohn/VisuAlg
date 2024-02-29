@@ -27,7 +27,7 @@ inicio
       //
       op<-1
       
-      enquanto (op<>10) faca
+      enquanto (op<>99) faca
       escreval("*****        ***********         *****")
       escreval("*****        CALCULADORA         *****")
       escreval("*****        ***********         *****")
