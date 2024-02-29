@@ -25,7 +25,12 @@ inicio
       //
       //processamento
       //
+      op<-1
+      
+      enquanto (op<>10) faca
+      escreval("*****        ***********         *****")
       escreval("*****        CALCULADORA         *****")
+      escreval("*****        ***********         *****")
       escreval
       escreval("Insira os dois números para operação: ")
       leia(n1, n2)
@@ -44,54 +49,83 @@ inicio
       //
 
       se(op<1) ou (op>6)entao
-           limpatela
-           escreval("Operação matemática não válida.")
-           fimAlgoritmo
+           escreval("Operação não válida.")
       senao
          escolha op
                  caso 1
                       resultado<-n1+n2
                       op1<-"+"
+                        escreval
+                        escreval("**************************")
+                        escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+                        escreval("**************************")
+                        escreval
                  caso 2
                       resultado<-n1-n2
                       op1<-"-"
+                        escreval
+                        escreval("**************************")
+                        escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+                        escreval("**************************")
+                        escreval
                  caso 3
                       resultado<-n1*n2
                       op1<-"x"
+                        escreval
+                        escreval("**************************")
+                        escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+                        escreval("**************************")
+                        escreval
                  caso 4
                       se(n1=0)entao
-                           limpatela
+                           escreval("*********************")
                            escreval("Divisor 0 não existe.")
-                           fimalgoritmo
+                           escreval("*********************")
+                           escreval
                       senao
                            se(n2=0)entao
-                                limpatela
+                                escreval("***********************")
                                 escreval("Dividendo 0 não existe.")
-                                fimalgoritmo
+                                escreval("***********************")
+                                escreval
                            senao
                                 resultado<-n1/n2
                                 op1<-"/"
+                                 escreval
+                                 escreval("**************************")
+                                 escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+                                 escreval("**************************")
+                                 escreval
                            fimse
                       fimse
                  caso 5
                       //resultado<-n1^b2
                       resultado<-exp(n1, n2)
                       op1<-"^"
+                        escreval
+                        escreval("**************************")
+                        escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+                        escreval("**************************")
+                        escreval
                  caso 6
                       limpatela
                       escreval ("Programa encerrado")
                       fimAlgoritmo
                  outrocaso
-                      limpatela
-                      escreval("Operação matemática inválida.")
-                      fimAlgoritmo
+                      escreval
+                      escreval("Operação não válida.")
+                      escreval
          fimEscolha
       fimse
+      //escreval
+      //escreval("**************************")
+      //escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+     // escreval("**************************")
+      //escreval
+      fimEnquanto
       //
       
-      limpatela
-      
       //
-      escreval("***** ",n1," ", op1, n2, " = ", resultado, " *****")
+
 
 fimalgoritmo
