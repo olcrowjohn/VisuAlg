@@ -16,7 +16,11 @@ inicio
             leia(op)
       ate   (op="n")
       
+      escreval
       escreval("* * * * *")
+      escreval("Obrigado!")
+      escreval("* * * * *")
+      escreval
 
 
 fimalgoritmo
