@@ -13,8 +13,8 @@ inicio
       //com PARA_FACA
       //entrada de dados
       soma<-0
-      
-      para i de 1 ate 100 passo 1 faca
+      escreval("PARA_FACA")
+      para i de 0 ate 100 passo 1 faca
            escreva(i)
            //tratativa
            soma<-soma+i
@@ -28,7 +28,9 @@ inicio
       //com ENQUANTO_FACA
       //entrada de dados
       soma<-0
-      i<-1
+      i<-0
+      escreval
+      escreval("ENQUANTO_FACA")
       enquanto i<=100 faca
                escreva(i)
                //tratativa
@@ -37,8 +39,29 @@ inicio
       fimEnquanto
       
       escreval
-      escreval("SOma dos cem primeiros números: ", soma)
+      escreval("Soma dos cem primeiros números: ", soma)
       escreval
       escreval("***********")
+      //
+
+      //
+      //usando REPITA_ATE
+      //
+      i<-0
+      soma<-0
+      escreval
+      escreval("REPITA_ATE")
+      repita
+            escreva(i)
+            //tratativas
+            i<-i+1
+            soma<-soma+i
+      ate(i=100)
+      
+      escreval
+      escreval("Soma dos cem primeiros números: ", soma)
+      escreval
+      escreval("***********")
+      
 
 fimalgoritmo
