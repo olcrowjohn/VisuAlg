@@ -49,7 +49,7 @@ inicio
       soma<-0
       soma3<-0
       soma4<-0
-      
+
       escreval
       escreval("PARA_FACA")
       para i de 1 ate 400 faca
