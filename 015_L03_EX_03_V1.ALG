@@ -21,8 +21,9 @@ inicio
       i<-1
       soma<-0
       soma4<-0
-      //
-      //
+
+      escreval
+      escreval("ENQUANTO_FACA")
       enquanto i<=200 faca
                //escreva(i)
                //tratativa
@@ -50,7 +51,9 @@ inicio
       i<-1
       soma<-0
       soma4<-0
-      
+
+      escreval
+      escreval("PARA_FACA")
       para i de 1 ate 200 faca
            //escreva(i)
            //tratativa
@@ -78,6 +81,8 @@ inicio
       soma<-0
       soma4<-0
       
+      escreval
+      escreval("REPITA_ATE")
       repita
          //tratativa
          i<-i+1
