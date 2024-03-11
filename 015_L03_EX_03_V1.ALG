@@ -24,7 +24,7 @@ inicio
 
       escreval
       escreval("ENQUANTO_FACA")
-      enquanto i<=200 faca
+      enquanto i<200 faca
                //escreva(i)
                //tratativa
                i<-i+1
@@ -33,6 +33,7 @@ inicio
                     escreva(i)
                     //tratativa
                     soma4<-soma4+i
+                    //escreval(soma4)
                senao
                fimse
       fimEnquanto

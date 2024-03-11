@@ -4,42 +4,46 @@ algoritmo "015_L03_EX_02_v1"
 
 var
 
-   i : inteiro
-   n1 : inteiro
-   soma : inteiro
+   iPara : inteiro
+   somaPara : inteiro
+   iEnquanto : inteiro
+   somaEnquanto : inteiro
+   iRepita : inteiro
+   somaRepita : inteiro
+   
 
 inicio
 
       //com PARA_FACA
       //entrada de dados
-      soma<-0
-      escreval("PARA_FACA")
-      para i de 0 ate 100 passo 1 faca
-           escreva(i)
+      somaPara<-0
+      escreval("PARA_FACA:")
+      para iPara de 0 ate 100 passo 1 faca
+           escreva(iPara)
            //tratativa
-           soma<-soma+i
+           somaPara<-somaPara+iPara
       fimPara
       //
       escreval
-      escreval("Soma dos cem primeiros números: ", soma)
+      escreval("Soma dos cem primeiros números: ", somaPara)
       escreval
       escreval("***********")
       
       //com ENQUANTO_FACA
       //entrada de dados
-      soma<-0
-      i<-0
+      somaEnquanto<-0
+      iEnquanto<-0
       escreval
-      escreval("ENQUANTO_FACA")
-      enquanto i<=100 faca
-               escreva(i)
+      escreval("ENQUANTO_FACA:")
+      enquanto iEnquanto<=100 faca
+               escreva(iEnquanto)
                //tratativa
-               soma<-soma+i
-               i<-i+1
+               somaEnquanto<-somaEnquanto+iEnquanto
+               iEnquanto<-iEnquanto+1
       fimEnquanto
       
       escreval
-      escreval("Soma dos cem primeiros números: ", soma)
+      escreval("Soma dos cem primeiros números: ", somaEnquanto)
       escreval
       escreval("***********")
       //
@@ -47,19 +51,19 @@ inicio
       //
       //usando REPITA_ATE
       //
-      i<-0
-      soma<-0
+      iRepita<-0
+      somaRepita<-0
       escreval
-      escreval("REPITA_ATE")
+      escreval("REPITA_ATE:")
       repita
-            escreva(i)
+            escreva(iRepita)
             //tratativas
-            i<-i+1
-            soma<-soma+i
-      ate(i=100)
+            iRepita<-iRepita+1
+            somaRepita<-somaRepita+iRepita
+      ate(iRepita=100)
       
       escreval
-      escreval("Soma dos cem primeiros números: ", soma)
+      escreval("Soma dos cem primeiros números: ", somaRepita)
       escreval
       escreval("***********")
       

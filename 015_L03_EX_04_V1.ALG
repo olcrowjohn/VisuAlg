@@ -53,7 +53,7 @@ inicio
       escreval
       escreval("PARA_FACA")
       para i de 1 ate 400 faca
-           i<-i+1
+           //i<-i+1
            soma<-soma+i
            se(i mod 3 = 0)entao
                 soma3<-soma3+i

@@ -5,7 +5,7 @@ algoritmo "014_L03_EX_02_v1"
 
 var
 
-   n1 : inteiro
+   i : inteiro
    impar : inteiro
    par : inteiro
    soma : inteiro
@@ -15,22 +15,27 @@ inicio
       par<-0
       impar<-0
       
-      para n1 de 0 até 100 passo 1 faca
-           se(n1 mod 2 <> 0)entao
-                 impar<-impar+n1
+      para i de 0 até 20 passo 1 faca
+           se(i mod 2 <> 0)entao
+                 impar<-impar+i
                  //escreva(impar)
            senao
-                se(n1 mod 2 = 0)entao
-                      par<-par+n1
+                se(i mod 2 = 0)entao
+                      par<-par+i
                       //escreva(par)
-                senao
-                     soma<-soma+n1
                 fimse
            fimse
+
+      escreva(i)
+      soma<-soma+i
+
       fimPara
       
-      escreval(impar)
-      escreval(par)
-      escreval (soma)
+      escreval
+      escreval
+      escreval("Impar: ", impar)
+      escreval("Par: ", par)
+      escreval ("Soma de todos os números: ", soma)
+      escreval
 
 fimalgoritmo
