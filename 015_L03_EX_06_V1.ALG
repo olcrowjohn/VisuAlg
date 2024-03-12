@@ -49,6 +49,7 @@ inicio
       //
       escreval("*******************************")
       escreval("***********PARA_FACA***********")
+      escreval
       escreval("Todos os valores antes de N será somados.")
       escreva ("Digite N: ")
       leia(nPara)
@@ -71,6 +72,7 @@ inicio
       //
       escreval("*******************************")
       escreval("**********REPITA_FACA**********")
+      escreval
       escreval("Todos os valores antes de N será somados.")
       escreva ("Digite N: ")
       leia(nRepita)

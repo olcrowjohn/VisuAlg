@@ -30,7 +30,6 @@ inicio
       escreval("*********************************")
       escreval("**********ENQUANTO_FACA**********")
       escreval
-      
       escreval("Vamos trabalhar com potências!")
       escreva ("Insira o valor da base da operação: ")
       leia(n1E)
@@ -58,7 +57,6 @@ inicio
       escreval("*********************************")
       escreval("************PARA_FACA************")
       escreval
-
       escreval("Vamos trabalhar com potências!")
       escreva ("Insira o valor da base da operação: ")
       leia(n1P)
@@ -85,7 +83,6 @@ inicio
       escreval("*********************************")
       escreval("***********REPITA__ATE***********")
       escreval
-
       escreval("Vamos trabalhar com potências!")
       escreva ("Insira o valor da base da operação: ")
       leia(n1R)
