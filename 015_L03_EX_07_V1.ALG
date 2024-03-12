@@ -4,8 +4,6 @@ algoritmo "015_L03_EX_07_V1"
 //qualquer com um expoente qualquer.
 //por exemplo, se o usuário deseja calcuar o valor de 2³, o programa deverá
 //apresentar o resultado 8.
-//Não utilize funções (internas, bibliotecas) de cálculo de potência.
-//Utilize apenas laçoes de repetição para solucionar o problema.
 
 var
 
