@@ -86,6 +86,7 @@ inicio
       escreval
       escreval("Soma dos números inteiros de 0 até ", nRepita, ": ", somaRepita)
       escreval
+      escreval("*******************************")
       
       
       
