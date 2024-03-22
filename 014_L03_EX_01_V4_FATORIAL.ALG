@@ -15,7 +15,7 @@ inicio
          escreva("Digite um número para a operação fatorial: ")
          leia(n1)
          escreval
-         
+
                  fatorial<-1
 
             para i de n1 até 1 passo -1 faca
